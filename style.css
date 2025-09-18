@@ -1,0 +1,98 @@
+h1 {
+    font-family:   "Poppins", sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+body {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 0px 50px;
+}
+.main {
+    flex: 1;
+}
+html {
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+}
+
+.quality {
+    color: midnightblue;
+}
+footer {
+    text-align: right;
+    color: firebrick;
+    font-family: "Poppins";
+}
+
+.card {
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.left {
+    float: left;
+    width: 45%;
+}
+
+.right {
+    float: right;
+    width: 45%;
+}
+
+img .card {
+    text-align: justify;
+    object-fit: cover;
+}
+
+div {
+    display: inline-block;
+}
+
+img .card p {
+    height: 50px;
+    width: 45%;
+}
+p{
+    font-size: 100%;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    .main {
+    position: relative;
+   }
+  .glazlogo {
+    width: 100px;
+    position: absolute;
+    margin-left: 500px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .block {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .block img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  p {
+    text-align: center;
+  }
+}
